@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('images/bg-image.jpg');
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    max-width: 85%;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, .3);
+    box-shadow: 0 0 15px black;
+    padding: 5px;
+}
+
+h1 {
+    color: goldenrod;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    margin: 5px 0;
+    color: azure;
+}
+
+button {
+    background-color: goldenrod;
+    color: #016f32;
+    font-weight: bolder;
+    width: 150px;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+button:last-of-type {
+    margin-bottom: 10px;
+}
